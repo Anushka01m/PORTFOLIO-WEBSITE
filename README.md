@@ -1,4 +1,3 @@
-# PORTFOLIO-WEBSITE
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +11,7 @@
 </head>
 <body>
 
-    <header>
+ <header>
         <nav>
             <a href="#home" class="logo">Your Name </a>
             <ul>
@@ -23,7 +22,7 @@
         </nav>
     </header>
 
-    <section id="home" class="hero">
+<section id="home" class="hero">
         <div class="hero-content">
             <h1>Hi, I'm Anushka Maitra 👋</h1>
             <p>A passionate web developer specializing in creating beautiful and functional websites,loves building web apps and automating tasks.</p>
@@ -31,14 +30,14 @@
         </div>
     </section>
 
-    <section id="about" class="about">
+<section id="about" class="about">
         <div class="about-content">
             <h2>About Me</h2>
             <p>I'm a self-taught developer with a strong foundation in Java,Python, HTML, CSS, and JavaScript. I love building clean, modern, and responsive programs , apps and web applications. When I'm not coding, you can find me travelling or reading a good book.</p>
         </div>
     </section>
 
-    <section id="projects" class="projects">
+<section id="projects" class="projects">
         <h2>My Projects</h2>
         <div class="project-grid">
             <div class="project-card">
@@ -47,7 +46,7 @@
                 <a href="#" class="project-link">View Project</a>
             </div>
 
-            <div class="project-card">
+<div class="project-card">
                 <h3>To do List Website 2</h3>
                 <p> Stores information regarding a list of items in an interactive and fun way . Created using HTML , CSS and JavaScript.</p>
                 <a href="#" class="project-link">View Project</a>
@@ -83,10 +82,10 @@
                 <a href="#" class="project-link">View Project</a>
             </div>
             
-            </div>
+</div>
     </section>
 
-    <section id="contact" class="contact">
+<section id="contact" class="contact">
         <h2>Get in Touch</h2>
         <p>Feel free to reach out to me via email or connect with me on social media.</p>
         <div class="contact-links">
@@ -96,7 +95,7 @@
         </div>
     </section>
 
-    <footer>
+ <footer>
         <p>&copy; 2025 Anushka Maitra All Rights Reserved.</p>
     </footer>
 
