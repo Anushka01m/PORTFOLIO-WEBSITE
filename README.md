@@ -43,7 +43,7 @@
             <div class="project-card">
                 <h3>Portfolio Website 1</h3>
                 <p>A website that holds information regarding me .Created using HTML , CLI and CSS </p>
-                <a href="#" class="https://github.com/Anushka01m/PORTFOLIO-WEBSITE">View Project</a>
+                <a href="#" class="(https://github.com/Anushka01m/PORTFOLIO-WEBSITE)">View Project</a>
             </div>
 
 <div class="project-card">
