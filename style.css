@@ -1,61 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
 :root {
-  --bg-color: #fff;
-  --text-color: #000;
-  --button-bg: #e0e0e0;
-  --button-text: #000;
+  --bg-color: #f9f9f9;
+  --text-color: #333;
+  --accent-color: #0077cc;
+  --card-bg: #ffffff;
+  --header-bg: linear-gradient(135deg, #0077cc, #00c6ff);
 }
 
 body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
-  transition: background 0.3s, color 0.3s;
+  line-height: 1.6;
 }
 
-button {
-  background-color: var(--button-bg);
-  color: var(--button-text);
+header {
+  background: var(--header-bg);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
 }
 
-/* Dark theme */
-body.dark {
-  --bg-color: #121212;
-  --text-color: #f0f0f0;
-  --button-bg: #333;
-  --button-text: #f0f0f0;
+header h1 {
+  margin: 0;
+  font-size: 3em;
 }
 
-/* Toggle switch styling */
-.theme-switch {
-  position: absolute;
-  top: 20px;
-  right: 20px;
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
 }
 
-.theme-switch input {
-  display: none;
+nav {
+  margin-top: 20px;
 }
 
-.slider {
-  width: 50px;
-  height: 25px;
-  background: #ccc;
-  border-radius: 25px;
-  position: relative;
-  cursor: pointer;
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  transition: color 0.3s;
 }
 
-.slider::before {
-  content: "";
-  position: absolute;
-  width: 21px;
-  height: 21px;
-  background: white;
-  border-radius: 50%;
-  top: 2px;
-  left: 2px;
-  transition: 0.3s;
+nav a:hover {
+  color: #ffdd57;
 }
 
-input:checked + .slider::before {
-  transform: translateX(25px);
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: var(--card-bg);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+section h2 {
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+  font-size: 0.9em;
 }
